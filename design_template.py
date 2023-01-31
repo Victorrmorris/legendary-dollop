@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Civilian Job Design Template")
+st.title("Military to Civilian Job Design Template")
 
 options = ["Unit Supply Specialist"]
 Military_Occupational_Specialty = st.multiselect("Select your MOS title", options, default=["Unit Supply Specialist"])
